@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(http://source.unsplash.com/1600x800/?codes);
+}
+
+.box1 {
+    width: 400px;
+    height: 490px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+    margin-left: 380px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.box1 h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box1 table tr input {
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 5px;
+}
+
+.box1 table td {
+    padding-left: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+.box1 .Close{
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 30px;
+    margin-left: 130px;
+    border-radius: 25px;
+    margin-bottom: 8px;
+    border: none;
+}
+.box1 .Close:hover{
+   background-color: green;
+   color: white;
+}

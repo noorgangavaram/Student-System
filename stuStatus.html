@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Status</title>
+        <link rel="stylesheet" href="stuStatus.css">
+        <link rel="import" href="stuLogin.html">
+    </head>
+    <body>
+        
+    <div class="box1">
+        <h2>Your Deetails Are....</h2>
+        <table>
+            <tr>
+                <td> Your Name is:<td>
+                    <td> <input class="name" type="text" placeholder="Your name appears heres"></td>
+            </tr>
+
+            <tr>
+                <td> Your Hall.no is:<td>
+                    <td> <input class="name" type="text" placeholder="Your name appears heres"></td>
+            </tr>
+
+            <tr>
+                <td>Your College Name is:<td>
+                    <td> <input class="name" type="text" placeholder="Your name appears heres"></td>
+            </tr>
+
+            <tr>
+                <td>Your Course is:<td>
+                    <td> <input class="name" type="text" placeholder="Your name appears heres"></td>
+            </tr>
+
+            <tr>
+                <td> Your spesilization is:<td>
+                    <td> <input class="name" type="text" placeholder="Your name appears heres"></td>
+            </tr>
+
+            
+            <tr>
+                <td> Your Mobile.no is:<td>
+                    <td> <input class="name" type="text" placeholder="Your name appears heres"></td>
+            </tr>
+
+            <tr>
+                <td> Your Current Year is:<td>
+                    <td> <input class="name" type="text" placeholder="Your name appears heres"></td>
+            </tr>
+
+            
+            <tr>
+                <td> Your Passing Year is:<td>
+                    <td> <input class="name" type="text" placeholder="Your name appears heres"></td>
+            </tr>
+    
+        </table>
+
+        <button class="Close" onclick="document.location='student.html'">Go to Home page</button>
+    </div>
+
+            
+
+        <script>
+            var check=document.getElementById('input2').value;
+
+         switch(check){
+            case '200141191':
+                //alert("Your noor");
+               
+               
+                document.getElementsByClassName('name').value="Noor Mohammad";
+            break;
+            case '200141192':
+                alert("Your bharat");
+            break;
+            case '200141193':
+                alert("Your basavaraju");
+            break;
+            case '200141194':
+                alert("Your vamshi");
+            break;
+            case '200141195':
+                alert("Your gowtham");
+            break;
+            default:
+                alert("Your number is not avilable in this List sorry!!!!!. Please enter your .no within 191 to 195");
+       }
+        </script>   
+    </body>
+</html>

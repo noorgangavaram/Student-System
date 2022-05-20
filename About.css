@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:url(http://source.unsplash.com/1600x800/?laptop);
+}
+.box1{
+    width: 300px;
+    height:200px;
+    /*
+    background-color:#add8e6;
+   */
+    margin-left: 400px; 
+    margin-top: 110px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer{
+    display: flex;
+    width: auto;
+    height: 110px;
+   
+}
+
+.footer .insta{
+    
+    width:100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 420px;
+    border-radius: 20px;
+}
+
+.footer .instaimg{
+    margin-left:30px ;
+    margin-top: 20px;
+}
+.footer .whatsimg{
+    margin-left:30px ;
+    margin-top: 20px;
+}
+
+.footer .insta a{
+    color: red;
+    margin-left: 20px;
+    text-decoration: none;
+} 
+
+.footer .whats a{
+    margin-left: 20px;
+    text-decoration: none;
+} 
+.footer .whats{
+    width:85px;
+    height: 90px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+
+.middlebox{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-left: 350px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.middlebox h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.middlebox table tr td{
+    font-size: 27px;
+    padding-left: 20px;
+}
+
+.education{
+    display: flex;
+    height: 200px;
+    width: auto;
+  
+}
+
+.education .ssc{
+    width: 300px;
+    height: 150px;
+    background-color: blanchedalmond;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.education h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.education h4{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.education h5{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.education .inter{
+    width: 300px;
+    height: 150px;
+    background-color: blanchedalmond;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+.education .degree{
+    width: 300px;
+    height: 150px;
+    background-color: blanchedalmond;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
